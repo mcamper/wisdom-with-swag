@@ -5,7 +5,7 @@ new Typewriter('#quote', {
     strings: [swagQuote.textContent],
     autoStart: true,
     cursor: "",
-    delay: 1,
+    // delay: 1,
     loop: true,
     
   });
