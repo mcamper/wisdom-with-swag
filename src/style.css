@@ -14,7 +14,6 @@ h1 {
     font-size: 80px;
     text-align: center;
     color: #2a053a;
-    /* color: black; */
     text-decoration: underline;
 }
 
@@ -95,117 +94,7 @@ h6 {
     color: white;
     border: 2px solid white;
 }
-/* .change-theme {
-    font-size: 36px;
-    font-weight: bold;
-    color: #83096a;
-    font-style: italic;
-    text-align: center;
-} */
+
 .dark .change-theme {
     color: white;
 }
-/* .theme-button {
-    width: 30%;
-    margin: 0 auto;
-    border: none;
-    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
-} */
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-body {
-    background-color: #f9f7fe;
-    font-family: Arial, Helvetica, sans-serif;
- }
- h1 {
-     font-weight: 800;
-     font-size: 36px;
-     line-height: 1.5;
-     color: #272044;
-     text-align: center;
- }
- .container {
-     margin: 120px auto;
-     max-width: 600px;
- }
- header {
-     margin-bottom: 30px;
- }
- .form-container {
-     padding: 30px;
-     background-color: white;
-     border-radius: 10px;
-     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-     margin-bottom: 30px;
-     padding: 15px 20px;
- 
- }
- form {
-     /* padding: 30px;
-     background-color: white;
-     border-radius: 10px; */
-     display: flex;
-     /* box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-     margin-bottom: 30px; */
- /*  */
-     /* }
- }
- @-webkit-keyframes blink-animation {
-     to {
-         visibility: hidden;
-     }
-}
- .hint {
-     line-height: 1.5;
-     font-size: 12px;
-     opacity: 0.6;
- }
- .instructions {
-     padding: 16px;
-     border: 1px solid rgba(39, 33, 66, 0.5);
-     width: 80%;
-     font-size: 16px;
-     border-radius: 50px;
-     line-height: 20px;
-     color: #272044;
- }
- .submit-button {
-     margin-left: 10px;
-     background-color: #885df1;
-     color: white;
-     border: none;
-     border-radius: 50px;
-     padding: 14px 24px;
-     width: 150px;
-     font-size: 16px;
- }
- .poem {
-     font-size: 16px;
-     background-color: white;
-     padding: 20px;
-     line-height: 2;
-     border-left: 3px solid #885df1;
-     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
- }
- footer {
-     text-align: center;
-     font-size: 13px;
-     margin-top: 30px;
- }
-     
- a {
-     color: #885df1;
- }
- 
- .poem strong {
-     color: pink
- }
- .hidden {
-     display: none;
- }
- .generating {
-     animation: blink-animation 1s steps(5, start) infinite;
- }
- @keyframes blink-animation {
-     to {
-         visibility: hidden; } */
