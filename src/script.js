@@ -1,8 +1,11 @@
 
-new Typewriter('#typewriter', {
-    strings: ['Hello', 'World'],
+new Typewriter('#quote', {
+    strings: `"You don't stop playing because you grow old; you grow old because you stop playing."--George Bernard Shaw`,
     autoStart: true,
+    cursor: "",
   });
+
+let swagQuote = document.querySelector("#quote");
 
 
 
