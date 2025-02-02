@@ -54,10 +54,10 @@ h1 {
     border:#83096a 4px solid;
     margin: 0 auto;
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
     font-size: 24px;
-    border-radius: 20px;
+    border-radius: 12px;
     background-color: #efa4bd58;
     color: #83096a;
     
