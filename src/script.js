@@ -1,19 +1,22 @@
 
+let swagQuote = document.querySelector("#quote");
+
 new Typewriter('#quote', {
-    strings: `"You don't stop playing because you grow old; you grow old because you stop playing."--George Bernard Shaw`,
+    strings: [swagQuote.textContent],
     autoStart: true,
     cursor: "",
     
   });
 
-let swagQuote = document.querySelector("#quote");
 
 
 
-
-
-
-
+function changeTheme() {
+  let body = document.querySelector("body");
+  body.classList.toggle("dark");
+}
+let themeButton = document.querySelector("#theme-button");
+themeButton.addEventListener("click", changeTheme);
 
 
 
